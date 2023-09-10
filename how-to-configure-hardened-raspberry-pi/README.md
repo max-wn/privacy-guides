@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-11-27T10:00:26.807Z
 Listed: true
+Pinned:
 -->
 
 # How to configure hardened Raspberry Pi
 
-[![How to configure hardened Raspberry Pi](how-to-configure-hardened-raspberry-pi.jpeg)](https://www.youtube.com/watch?v=6R8uKdstnts "How to configure hardened Raspberry Pi")
+[![How to configure hardened Raspberry Pi](how-to-configure-hardened-raspberry-pi.jpg)](https://www.youtube.com/watch?v=6R8uKdstnts "How to configure hardened Raspberry Pi")
 
 ## Requirements
 

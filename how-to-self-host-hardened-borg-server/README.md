@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-11-27T17:49:18.440Z
 Listed: true
+Pinned:
 -->
 
 # How to self-host hardened Borg server
 
-[![How to self-host hardened Borg server](how-to-self-host-hardened-borg-server.jpeg)](https://www.youtube.com/watch?v=rzEaxL6F2Eg "How to self-host hardened Borg server")
+[![How to self-host hardened Borg server](how-to-self-host-hardened-borg-server.jpg)](https://www.youtube.com/watch?v=rzEaxL6F2Eg "How to self-host hardened Borg server")
 
 ## Requirements
 

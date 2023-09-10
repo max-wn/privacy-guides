@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>, Alex Anderson <https:
 Reviewers: Alex Anderson <https://github.com/Serpent27>
 Publication date: 2020-08-26T14:07:36.767Z
 Listed: true
+Pinned:
 -->
 
 # How to back up and encrypt data using rsync and VeraCrypt on macOS
 
-[![How to back up and encrypt data using rsync and VeraCrypt on macOS (see change log)](how-to-back-up-and-encrypt-data-using-rsync-and-veracrypt-on-macos-see-change-log.jpeg)](https://www.youtube.com/watch?v=1cz_ViFB6eE "How to back up and encrypt data using rsync and VeraCrypt on macOS (see change log)")
+[![How to back up and encrypt data using rsync and VeraCrypt on macOS (see change log)](how-to-back-up-and-encrypt-data-using-rsync-and-veracrypt-on-macos-see-change-log.jpg)](https://www.youtube.com/watch?v=1cz_ViFB6eE "How to back up and encrypt data using rsync and VeraCrypt on macOS (see change log)")
 
 > Heads-up: when using storage devices with wear-leveling (most flash storage devices), it is not possible to securely change password once it has been set (see [Wear-Leveling](https://www.veracrypt.fr/en/Wear-Leveling.html)).
 
@@ -167,9 +168,9 @@ Error: mount_macfuse: the file system is not available (1)
 
 > Heads-up: given “FUSE for macOS” is a third-party extension, macOS prevents using the extension without explicit user consent (granted by clicking “Allow” in “System Preferences” / “Privacy & Security”).
 
-![Allow extension 1](./allow-extension-1.png?shadow=1&width=420)
+![Allow extension 1](./allow-extension-1.png)
 
-![Allow extension 2](./allow-extension-2.png?shadow=1&width=668)
+![Allow extension 2](./allow-extension-2.png)
 
 ```console
 $ veracrypt --text --create "$BACKUP_VOLUME_PATH"

@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2022-10-29T13:05:18.112Z
 Listed: true
+Pinned:
 -->
 
 # How to disable CUPS printer job history on macOS
 
-[![macOS stores a copy of everything one prints forever](macos-stores-a-copy-of-everything-one-prints-forever.jpeg)](https://www.youtube.com/watch?v=eAgfeVNKdoo "macOS stores a copy of everything one prints forever")
+[![macOS stores a copy of everything one prints forever](macos-stores-a-copy-of-everything-one-prints-forever.jpg)](https://www.youtube.com/watch?v=eAgfeVNKdoo "macOS stores a copy of everything one prints forever")
 
 ## Requirements
 

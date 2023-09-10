@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2021-03-24T12:40:31.074Z
 Listed: true
+Pinned:
 -->
 
 # How to verify PGP digital signatures using GnuPG on macOS
 
-[![How to verify PGP digital signatures using GnuPG on macOS](how-to-verify-pgp-digital-signatures-using-gnupg-on-macos.jpeg)](https://www.youtube.com/watch?v=WnNfunEJdQY "How to verify PGP digital signatures using GnuPG on macOS")
+[![How to verify PGP digital signatures using GnuPG on macOS](how-to-verify-pgp-digital-signatures-using-gnupg-on-macos.jpg)](https://www.youtube.com/watch?v=WnNfunEJdQY "How to verify PGP digital signatures using GnuPG on macOS")
 
 ## Requirements
 
@@ -134,7 +135,7 @@ Good signature
 
 👍
 
-### Verify signed [file](https://sunknudsen.com/static/media/privacy-guides/how-to-clean-uninstall-macos-apps-using-appcleaner-open-source-alternative/app-cleaner.sh) using [detached signature](https://sunknudsen.com/static/media/privacy-guides/how-to-clean-uninstall-macos-apps-using-appcleaner-open-source-alternative/app-cleaner.sh.asc)
+### Verify signed [file](https://sunknudsen.com/privacy-guides/how-to-clean-uninstall-macos-apps-using-appcleaner-open-source-alternative/app-cleaner.sh) using [detached signature](https://sunknudsen.com/privacy-guides/how-to-clean-uninstall-macos-apps-using-appcleaner-open-source-alternative/app-cleaner.sh.asc)
 
 ```console
 $ gpg --verify app-cleaner.sh.asc

@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2023-02-22T11:26:55.652Z
 Listed: true
+Pinned:
 -->
 
 # How to setup system-wide [Mullvad DNS over HTTPS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/) on iOS and macOS
 
-[![How to setup system-wide Mullvad DNS over HTTPS on iOS and macOS](how-to-setup-system-wide-mullvad-dns-over-https-on-ios-and-macos.jpeg)](https://www.youtube.com/watch?v=DvjxUN5ZYvE "How to setup system-wide Mullvad DNS over HTTPS on iOS and macOS")
+[![How to setup system-wide Mullvad DNS over HTTPS on iOS and macOS](how-to-setup-system-wide-mullvad-dns-over-https-on-ios-and-macos.jpg)](https://www.youtube.com/watch?v=DvjxUN5ZYvE "How to setup system-wide Mullvad DNS over HTTPS on iOS and macOS")
 
 ## Requirements
 
@@ -35,7 +36,7 @@ Open “Settings”, click “Profile Downloaded” and, finally, click “Insta
 
 Go to [https://mullvad.net/en/check](https://mullvad.net/en/check).
 
-![Connection check](connection-check-ios.png?width=375)
+![Connection check](connection-check-ios.png)
 
 No DNS leaks
 

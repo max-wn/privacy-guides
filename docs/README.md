@@ -1,10 +1,21 @@
+<!--
+Title: Privacy guides docs
+Description: Learn how to contribute, get help and sign privacy guides pull requests.
+Author: Sun Knudsen <https://github.com/sunknudsen>
+Contributors: Sun Knudsen <https://github.com/sunknudsen>
+Reviewers:
+Publication date: 2020-09-10T14:14:21.000Z
+Listed: false
+Pinned:
+-->
+
 # Privacy guides docs
 
 ## How to contribute
 
 Thanks for contributing. 🙌
 
-**Like project?** Please star [repo](https://github.com/sunknudsen/privacy-guides).
+**Like project?** Please star [repository](https://github.com/sunknudsen/privacy-guides).
 
 **Found a bug?** Please submit [issue](https://github.com/sunknudsen/privacy-guides/issues) or [signed](#how-to-sign-pull-requests) [pull request](https://github.com/sunknudsen/privacy-guides/pulls).
 

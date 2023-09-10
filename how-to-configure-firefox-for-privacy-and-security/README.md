@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2022-11-04T11:00:13.850Z
 Listed: true
+Pinned: 1
 -->
 
 # How to configure Firefox for privacy and security
 
-[![Firefox privacy and security hardening guide (2022 revised edition)](firefox-privacy-and-security-hardening-guide-2022-revised-edition.jpeg)](https://www.youtube.com/watch?v=s-vwthG28ks "Firefox privacy and security hardening guide (2022 revised edition)")
+[![Firefox privacy and security hardening guide (2022 revised edition)](firefox-privacy-and-security-hardening-guide-2022-revised-edition.jpg)](https://www.youtube.com/watch?v=s-vwthG28ks "Firefox privacy and security hardening guide (2022 revised edition)")
 
 ## Caveats
 
@@ -39,7 +40,7 @@ Go to [https://www.mozilla.org/en-US/firefox/new/](https://www.mozilla.org/en-US
 ```console
 $ cd "/Users/sunknudsen/Library/Application Support/Firefox/Profiles/rzrw17yo.default-release"
 
-$ curl --fail --remote-name https://sunknudsen.com/static/media/privacy-guides/how-to-configure-firefox-for-privacy-and-security/user.js
+$ curl --fail --remote-name https://sunknudsen.com/privacy-guides/how-to-configure-firefox-for-privacy-and-security/user.js
 ```
 
 ### Step 3: restart Firefox

@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-05-13T00:00:00.000Z
 Listed: true
+Pinned:
 -->
 
 # How to use multiple compartmentalized Firefox instances simultaneously using profiles
 
-[![How to use multiple compartmentalized Firefox instances using profiles](how-to-use-multiple-compartmentalized-firefox-instances-using-profiles.jpeg)](https://www.youtube.com/watch?v=Upib_vq_EB8 "How to use multiple compartmentalized Firefox instances using profiles")
+[![How to use multiple compartmentalized Firefox instances using profiles](how-to-use-multiple-compartmentalized-firefox-instances-using-profiles.jpg)](https://www.youtube.com/watch?v=Upib_vq_EB8 "How to use multiple compartmentalized Firefox instances using profiles")
 
 ## Guide
 
@@ -28,13 +29,13 @@ Listed: true
 do shell script "nohup /Applications/Firefox.app/Contents/MacOS/firefox-bin -p \"work\" --no-remote > /dev/null 2>&1 &"
 ```
 
-![script-editor-step-1](./script-editor-step-1.png?shadow=1)
+![script-editor-step-1](./script-editor-step-1.png)
 
 ### Step 3: export script as application
 
 Click “File”, then “Export…”, set “Export As” filename to “Firefox work” (or any other filename), select “Applications” folder (in “Favorites”), select “Application” file format and click “Save”.
 
-![script-editor-step-2](./script-editor-step-2.png?shadow=1)
+![script-editor-step-2](./script-editor-step-2.png)
 
 ### Step 4: set Firefox app environment variable
 

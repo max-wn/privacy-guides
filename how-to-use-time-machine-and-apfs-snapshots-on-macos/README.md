@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2021-04-02T17:40:53.608Z
 Listed: true
+Pinned:
 -->
 
 # How to use Time Machine and APFS snapshots on macOS
 
-[![How to use Time Machine and APFS snapshots on macOS](how-to-use-time-machine-and-apfs-snapshots-on-macos.jpeg)](https://www.youtube.com/watch?v=PY2gzNrK9Wc "How to use Time Machine and APFS snapshots on macOS")
+[![How to use Time Machine and APFS snapshots on macOS](how-to-use-time-machine-and-apfs-snapshots-on-macos.jpg)](https://www.youtube.com/watch?v=PY2gzNrK9Wc "How to use Time Machine and APFS snapshots on macOS")
 
 ## Time Machine setup guide
 
@@ -18,21 +19,21 @@ Listed: true
 
 > Heads-up: excluded folders vary depending on use case.
 
-![Format Time Machine drive](./exclude.png?shadow=1)
+![Format Time Machine drive](./exclude.png)
 
 ### Step 2: format Time Machine disk as “Mac OS Extended (Journaled, Encrypted)” using “Disk Utility”
 
 > WARNING: DATA ON TIME MACHINE DISK WILL BE PERMANENTLY DELETED.
 
-![Format Time Machine drive](./format.png?shadow=1)
+![Format Time Machine drive](./format.png)
 
 ### Step 3: enable “Encrypt Backup Disk” and click “Use as Backup Disk”
 
-![Format Time Machine drive](./enable-time-machine.png?shadow=1&width=568)
+![Format Time Machine drive](./enable-time-machine.png)
 
 ### Step 4: confirm encryption is enabled and enable “Show Time Machine in menu bar”
 
-![Format Time Machine drive](./confirm-encryption.png?shadow=1)
+![Format Time Machine drive](./confirm-encryption.png)
 
 Encrypted
 

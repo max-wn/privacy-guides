@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2021-05-09T12:10:53.922Z
 Listed: true
+Pinned:
 -->
 
 # How to install and use VeraCrypt on Tails
 
-[![How to install VeraCrypt persistently on Tails](how-to-install-veracrypt-persistently-on-tails.jpeg)](https://www.youtube.com/watch?v=ZlWNmpFxk1g "How to install VeraCrypt persistently on Tails")
+[![How to install VeraCrypt persistently on Tails](how-to-install-veracrypt-persistently-on-tails.jpg)](https://www.youtube.com/watch?v=ZlWNmpFxk1g "How to install VeraCrypt persistently on Tails")
 
 ## Requirements
 

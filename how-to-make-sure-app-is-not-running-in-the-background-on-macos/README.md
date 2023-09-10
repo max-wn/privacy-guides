@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2021-01-04T15:53:29.749Z
 Listed: true
+Pinned:
 -->
 
 # How to make sure app is not running in the background on macOS
 
-[![How to make sure app is not running in the background on macOS](how-to-make-sure-app-is-not-running-in-the-background-on-macos.jpeg)](https://www.youtube.com/watch?v=mSibcNslSK8 "How to make sure app is not running in the background on macOS")
+[![How to make sure app is not running in the background on macOS](how-to-make-sure-app-is-not-running-in-the-background-on-macos.jpg)](https://www.youtube.com/watch?v=mSibcNslSK8 "How to make sure app is not running in the background on macOS")
 
 ## Requirements
 
@@ -75,7 +76,7 @@ launchctl unload -w {,~}/Library/LaunchAgents/$BUNDLE_IDENTIFIER_PREFIX*.plist
 
 Open “System Preferences”, click “Extensions” and disable app extensions (if any).
 
-![core-sync](./core-sync.png?shadow=1)
+![core-sync](./core-sync.png)
 
 ### Step 4: add `kill-apps` helper to `.zshrc`
 

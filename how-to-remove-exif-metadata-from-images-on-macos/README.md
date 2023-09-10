@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-06-25T00:00:00.000Z
 Listed: true
+Pinned:
 -->
 
 # How to remove EXIF metadata from images on macOS
 
-[![How to remove EXIF metadata from images on macOS](how-to-remove-exif-metadata-from-images-on-macos.jpeg)](https://www.youtube.com/watch?v=mVMGiMFGgsU "How to remove EXIF metadata from images on macOS")
+[![How to remove EXIF metadata from images on macOS](how-to-remove-exif-metadata-from-images-on-macos.jpg)](https://www.youtube.com/watch?v=mVMGiMFGgsU "How to remove EXIF metadata from images on macOS")
 
 ## Requirements
 

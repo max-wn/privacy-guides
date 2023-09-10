@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-11-27T10:00:26.806Z
 Listed: true
+Pinned:
 -->
 
 # How to configure hardened Debian server
 
-[![How to configure hardened Debian server](how-to-configure-hardened-debian-server.jpeg)](https://www.youtube.com/watch?v=z8hizZRX5-4 "How to configure hardened Debian server")
+[![How to configure hardened Debian server](how-to-configure-hardened-debian-server.jpg)](https://www.youtube.com/watch?v=z8hizZRX5-4 "How to configure hardened Debian server")
 
 ## Requirements
 

@@ -6,6 +6,7 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2021-11-27T12:40:50.540Z
 Listed: true
+Pinned:
 -->
 
 # How to self-host hardened Jitsi server
@@ -88,6 +89,7 @@ iptables -A INPUT -p tcp --dport 80 --syn -m connlimit --connlimit-above 50 -j D
 iptables -A INPUT -p tcp --dport 80 -m conntrack --ctstate NEW -m limit --limit 60/s --limit-burst 20 -j ACCEPT
 iptables -A INPUT -p tcp --dport 443 --syn -m connlimit --connlimit-above 50 -j DROP
 iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -m limit --limit 60/s --limit-burst 20 -j ACCEPT
+iptables -A INPUT -p tcp --dport 5349 -m state --state NEW -j ACCEPT
 iptables -A INPUT -p udp --dport 10000 -m state --state NEW -j ACCEPT
 iptables-save > /etc/iptables/rules.v4
 ```
@@ -99,6 +101,7 @@ ip6tables -A INPUT -p tcp --dport 80 --syn -m connlimit --connlimit-above 50 -j 
 ip6tables -A INPUT -p tcp --dport 80 -m conntrack --ctstate NEW -m limit --limit 60/s --limit-burst 20 -j ACCEPT
 ip6tables -A INPUT -p tcp --dport 443 --syn -m connlimit --connlimit-above 50 -j DROP
 ip6tables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -m limit --limit 60/s --limit-burst 20 -j ACCEPT
+ip6tables -A INPUT -p tcp --dport 5349 -m state --state NEW -j ACCEPT
 ip6tables -A INPUT -p udp --dport 10000 -m state --state NEW -j ACCEPT
 ip6tables-save > /etc/iptables/rules.v6
 ```

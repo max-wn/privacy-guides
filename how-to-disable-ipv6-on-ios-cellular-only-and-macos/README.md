@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-07-18T10:28:23.605Z
 Listed: true
+Pinned:
 -->
 
 # How to disable IPv6 on iOS (cellular-only) and macOS
 
-[![How to disable IPv6 on iOS (cellular-only) and macOS (see change log)](how-to-disable-ipv6-on-ios-cellular-only-and-macos-see-change-log.jpeg)](https://www.youtube.com/watch?v=Nzx9T7GtmT4 "How to disable IPv6 on iOS (cellular-only) and macOS (see change log)")
+[![How to disable IPv6 on iOS (cellular-only) and macOS (see change log)](how-to-disable-ipv6-on-ios-cellular-only-and-macos-see-change-log.jpg)](https://www.youtube.com/watch?v=Nzx9T7GtmT4 "How to disable IPv6 on iOS (cellular-only) and macOS (see change log)")
 
 > Heads-up: unfortunately this guide will not work on carriers or ISPs that have migrated their networks to IPv6-only.
 
@@ -22,17 +23,17 @@ Listed: true
 
 ### Step 3 (on Mac): configure “General” settings
 
-![apple-configurator-general](./apple-configurator-general.png?shadow=1)
+![apple-configurator-general](./apple-configurator-general.png)
 
 ### Step 4 (on iPhone): find APN settings
 
 Open “Settings“, then “Cellular“, then “Cellular Data Network“.
 
-![ios-cellular-data-network](./ios-cellular-data-network.png?shadow=1&width=375)
+![ios-cellular-data-network](./ios-cellular-data-network.png)
 
 ### Step 5 (on Mac): configure “Cellular” settings
 
-![apple-configurator-cellular](./apple-configurator-cellular.png?shadow=1)
+![apple-configurator-cellular](./apple-configurator-cellular.png)
 
 ### Step 6 (on Mac): save provisioning profile
 
@@ -40,17 +41,17 @@ Open “Settings“, then “Cellular“, then “Cellular Data Network“.
 
 ### Step 8 (on Mac): double-click on iPhone
 
-![apple-configurator-iphone](./apple-configurator-iphone.png?shadow=1)
+![apple-configurator-iphone](./apple-configurator-iphone.png)
 
 ### Step 9 (on Mac): click on “Profile” tab, then “Add Profiles…”, select saved provisioning profile and click “Add”
 
-![apple-configurator-add-profile](./apple-configurator-add-profile.png?shadow=1)
+![apple-configurator-add-profile](./apple-configurator-add-profile.png)
 
 ### Step 10 (on iPhone): review profile
 
 Open “Settings”, then “Profile Downloaded” and tap “Install”
 
-![ios-install-profile](./ios-install-profile.png?shadow=1&width=375)
+![ios-install-profile](./ios-install-profile.png)
 
 👍
 
@@ -84,7 +85,7 @@ networksetup -setv6off "Thunderbolt Ethernet"
 
 Open “Settings”, then “General”, then “Profile”, and tap provisioning profile, then “Remove Profile”.
 
-![ios-remove-profile](./ios-remove-profile.png?shadow=1&width=375)
+![ios-remove-profile](./ios-remove-profile.png)
 
 ### Step 2 (on Mac): set network interfaces to automatic
 

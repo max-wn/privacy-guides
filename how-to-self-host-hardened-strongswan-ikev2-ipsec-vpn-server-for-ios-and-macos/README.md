@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2020-07-31T12:39:56.680Z
 Listed: true
+Pinned:
 -->
 
 # How to self-host hardened strongSwan IKEv2/IPsec VPN server for iOS and macOS (DEPRECATED: guide is no longer maintained)
 
-[![How to self-host hardened strongSwan IKEv2/IPsec VPN server for iOS and macOS](how-to-self-host-hardened-strongswan-ikev2-ipsec-vpn-server-for-ios-and-macos.jpeg)](https://www.youtube.com/watch?v=HY3F_vHuTFQ "How to self-host hardened strongSwan IKEv2/IPsec VPN server for iOS and macOS")
+[![How to self-host hardened strongSwan IKEv2/IPsec VPN server for iOS and macOS](how-to-self-host-hardened-strongswan-ikev2-ipsec-vpn-server-for-ios-and-macos.jpg)](https://www.youtube.com/watch?v=HY3F_vHuTFQ "How to self-host hardened strongSwan IKEv2/IPsec VPN server for iOS and macOS")
 
 > Heads-up: when following this guide on servers with upstream IPv4-only networks (which is totally fine if one knows what one is doing), it’s likely IPv6 traffic will leak on iOS when clients are connected to carriers or ISPs running dual stack (IPv4 + IPv6) networks. Leaks can be mitigated on iOS (cellular-only) and on macOS by following this [guide](../how-to-disable-ipv6-on-ios-cellular-only-and-macos).
 
@@ -241,7 +242,7 @@ Shout out to [Andrew Ho](https://gist.github.com/andrewlkho/31341da4f5953b8d977a
 The following command downloads and runs [ulagen.py](./ulagen.py) ([PGP signature](./ulagen.py.asc), [PGP public key](https://raw.githubusercontent.com/sunknudsen/pgp-public-key/master/legacy/sunknudsen-legacy.asc)).
 
 ```console
-$ curl -s https://sunknudsen.com/static/media/privacy-guides/how-to-self-host-hardened-strongswan-ikev2-ipsec-vpn-server-for-ios-and-macos/ulagen.py | python3 | grep "First subnet" | awk '{print "STRONGSWAN_IPV6_ULA="$3}' | tee -a ~/.bashrc
+$ curl -s https://sunknudsen.com/privacy-guides/how-to-self-host-hardened-strongswan-ikev2-ipsec-vpn-server-for-ios-and-macos/ulagen.py | python3 | grep "First subnet" | awk '{print "STRONGSWAN_IPV6_ULA="$3}' | tee -a ~/.bashrc
 STRONGSWAN_IPV6_ULA=fdba:8ce0:c301::/64
 
 $ source ~/.bashrc
@@ -931,17 +932,17 @@ Open “Apple Configurator 2”, then click “File”, then “New Profile”.
 
 In “General”, enter “Self-hosted strongSwan VPN” in “Name”.
 
-![apple-configurator-general](apple-configurator-general.png?shadow=1)
+![apple-configurator-general](apple-configurator-general.png)
 
 In “Certificates”, click “Configure” and select “ca.crt”. Then click “+” and select “alice.p12”. The password is the one from [step 29](#step-29-generate-client-key-csr-cert-and-pkcs12).
 
-![apple-configurator-certificates](apple-configurator-certificates.png?shadow=1)
+![apple-configurator-certificates](apple-configurator-certificates.png)
 
 In “VPN”, click “Configure” and enter the settings from the following screenshot (replace `185.193.126.203` with IP of server).
 
 The “Child SA Params” are the same as “IKE SA Params”.
 
-![apple-configurator-vpn](apple-configurator-vpn.png?shadow=1)
+![apple-configurator-vpn](apple-configurator-vpn.png)
 
 Finally, click “File”, then “Save”, and save file as “alice.mobileconfig”.
 

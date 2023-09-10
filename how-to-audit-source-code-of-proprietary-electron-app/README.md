@@ -6,11 +6,12 @@ Contributors: Sun Knudsen <https://github.com/sunknudsen>
 Reviewers:
 Publication date: 2021-12-03T19:50:28.298Z
 Listed: true
+Pinned:
 -->
 
 # How to audit source code of proprietary Electron app
 
-[![How to audit source code of proprietary Electron app](how-to-audit-source-code-of-proprietary-electron-app.jpeg)](https://www.youtube.com/watch?v=s4S7qgCkVCc "How to audit source code of proprietary Electron app")
+[![How to audit source code of proprietary Electron app](how-to-audit-source-code-of-proprietary-electron-app.jpg)](https://www.youtube.com/watch?v=s4S7qgCkVCc "How to audit source code of proprietary Electron app")
 
 ## Requirements
 
